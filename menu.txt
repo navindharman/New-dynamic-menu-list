@@ -1,0 +1,4 @@
+ 1.os information
+ 2.Time and date
+ 10.pk
+ 5.oiu
