@@ -36,7 +36,7 @@ echo -e "setf 5\nsetb 0" | tput -S
 		0) sh /naveen/nav/option.sh; pause ;;
 		*) if grep -q $c <<< $f;
 		then
-			sh /naveen/nav/name/$c.sh; pause		
+			sh /naveen/nav/$c.sh; pause		
 		else
 			echo "Kindly enter a valid menu number"; pause
 		fi

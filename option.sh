@@ -21,9 +21,9 @@ while true; do
  #       cd name/	
 #	vi $var.sh
 #	#!/bin/bash
-#	sed "$ i\ $script" /naveen/nav/name/$var.sh
-#	mv /naveen/nav/$var /naveen/nav/name/$var.sh
-#	chmod +x /naveen/nav/name/$var.sh
+#	sed "$ i\ $script" /naveen/nav/$var.sh
+#	mv /naveen/nav/$var /naveen/nav/$var.sh
+#	chmod +x /naveen/nav/$var.sh
 #	echo "Menu list modified"
 #sh /naveen/nav/cond.sh 
 #elif [ $k = r ]; then 
@@ -33,7 +33,7 @@ while true; do
 #	while true; do
 #		sed /$nos/d  /naveen/nav/menu.txt > /naveen/nav/menu.txt.new
 #		mv /naveen/nav/menu.txt.new /naveen/nav/menu.txt
-#		rm /naveen/nav/name/$nos.sh
+#		rm /naveen/nav/$nos.sh
 #		exit 0
 #	done	
 #else

@@ -18,12 +18,12 @@ wcnt=$(grep -w $e d | wc -l )
 	var=$(cat menu.txt | tail -n1 | cut -d '.' -f1)
 	sh /naveen/nav/variable.sh > var
 	read
-	cd /naveen/nav/name/
+	cd /naveen/nav/
 	vi $var.sh
 	#!/bin/bash
-	sed "$ i\ $script" /naveen/nav/name/$var.sh
-	mv /naveen/nav/$var /naveen/nav/name/$var.sh
-	chmod +x /naveen/nav/name/$var.sh
+	sed "$ i\ $script" /naveen/nav/$var.sh
+	mv /naveen/nav/$var /naveen/nav/$var.sh
+	chmod +x /naveen/nav/$var.sh
 	echo "Menu list modified"
 fi
 

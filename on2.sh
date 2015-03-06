@@ -11,7 +11,7 @@ wcnt1=$(grep -w $h g | wc -l )
 #	awk  '!/$nos/' /naveen/nav/menu.txt > /naveen/nav/menu.txt.new
 	sed  $nos"d"  /naveen/nav/menu.txt > /naveen/nav/menu.txt.new 
 	mv /naveen/nav/menu.txt.new /naveen/nav/menu.txt
-        rm /naveen/nav/name/$nos.sh
+        rm /naveen/nav/$nos.sh
         
       else
 	      echo "Menu id not found"
